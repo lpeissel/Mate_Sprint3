@@ -1,0 +1,61 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/RappelTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Titre du rappel"
+            android:textColor="@android:color/black"
+            android:paddingStart="8dp"
+            android:textSize="22sp"
+            android:textStyle="bold">
+        </TextView>
+        <!--
+                <TextView
+                    android:id="@+id/RappelText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/paragrapheRappels"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/RappelDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp"
+                    android:text="11/01 à 20h"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </TextView>
+                -->
+        <TextView
+            android:id="@+id/RappelText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:paddingStart="8dp"
+            tools:text="Carottes"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

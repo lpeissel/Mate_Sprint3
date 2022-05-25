@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/onglet_rappels"
+        android:enabled="true"
+        android:icon="@drawable/icon_notifications"
+        android:title="@string/bottom_navigation_menu_rappels"/>
+    <item
+        android:id="@+id/onglet_depenses"
+        android:enabled="true"
+        android:icon="@drawable/icon_depenses"
+        android:title="Dépenses"
+    />
+    <item
+        android:id="@+id/placeholder"
+        android:icon="@drawable/icon_add"
+        android:title="Équilibre"
+        />
+    <item
+        android:id="@+id/onglet_liste"
+        android:enabled="true"
+        android:icon="@drawable/icon_liste"
+        android:title="@string/bottom_navigation_menu_liste"
+        />
+    <item
+        android:id="@+id/onglet_reglages"
+        android:enabled="true"
+        android:icon="@drawable/icon_reglages"
+        android:title="@string/bottom_navigation_menu_reglages"/>
+
+</menu>

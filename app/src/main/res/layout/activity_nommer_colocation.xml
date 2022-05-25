@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context=".NommerColocationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="164dp"
+                    android:layout_height="156dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/logo_mate"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center">
+
+                <TextView
+                    android:id="@+id/text_gere_ta_colocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/gere_ta_coloc"
+                    android:textColor="#000000"
+                    android:textSize="15sp">
+
+                </TextView>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_nom_colocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="-120dp"
+            android:layout_marginBottom="5dp"
+            android:text="Nom"
+            android:textColor="#777778"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/nommage_colocation"
+            android:layout_width="286dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginRight="52dp"
+            android:background="@drawable/classique_input"
+            android:fontFamily="@font/poppins_medium_italic"
+            android:hint="Nom de la colocation"
+            android:paddingStart="20dp"
+            android:textColor="#9E9E9E"
+            android:textColorHint="#9E9E9E"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bouton_suivant_vers_ajout_colocataire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/classique_bouton"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Suivant"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

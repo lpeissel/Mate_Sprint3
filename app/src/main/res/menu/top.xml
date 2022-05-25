@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/rappels_action"
+        android:icon="@drawable/icon_notifications"
+        android:title="Rappels" />
+    <item
+        android:id="@+id/depenses_action"
+        android:icon="@drawable/icon_depenses"
+        android:title="Budget"/>
+    <item
+        android:id="@+id/liste_action"
+        android:icon="@drawable/icon_liste"
+        android:title="Liste"/>
+    <item
+        android:id="@+id/parametres_action"
+        android:icon="@drawable/icon_reglages"
+        android:title="Paramètres"/>
+
+</menu>

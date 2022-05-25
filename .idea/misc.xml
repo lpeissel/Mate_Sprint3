@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/drawable/icon_add.xml" value="0.119" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/drawable/icon_depenses.xml" value="0.119" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/drawable/icon_liste.xml" value="0.119" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/drawable/icon_notifications.xml" value="0.119" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/drawable/icon_reglages.xml" value="0.119" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/activity_identification_colocataire.xml" value="0.1859375" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/activity_menu_navigation.xml" value="0.1" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/activity_navigation_bottom.xml" value="0.1" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/activity_parametres.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/activity_passer_couronne.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/fragment_depenses.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/fragment_liste.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/fragment_parametres.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/fragment_passer_couronne.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/layout/fragment_rappels.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplication/app/src/main/res/menu/bottom_navigation_file.xml" value="0.1" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/drawable/icon_depenses.xml" value="0.124" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/drawable/icon_liste.xml" value="0.124" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/drawable/icon_notifications.xml" value="0.124" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_budget.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_couronne.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_creer_une_colocation.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_identification_colocataire.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_liste.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_passer_couronne.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_quitter_coloc.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_rappels.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_reglages.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/activity_verification_email.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/content_couronne.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/fragment_first.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/fragment_parametres.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/fragment_passer_couronne.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/fragment_rappels.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/new_rappel.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/new_task.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/rappel_layout.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/layout/task_layout.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/menu/bottom_navigation_file.xml" value="0.2" />
+        <entry key="..\:/Users/lpeis/OneDrive/Bureau/MateApplicationSprint3/app/src/main/res/menu/top.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_creer_une_colocation.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_identification_colocataire.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

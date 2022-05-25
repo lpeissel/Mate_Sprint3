@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:weightSum="9"
+    tools:context=".CreerUneColocationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="164dp"
+                    android:layout_height="156dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/logo_mate"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center">
+
+                <TextView
+                    android:id="@+id/text_gere_ta_colocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/gere_ta_coloc"
+                    android:textColor="#000000"
+                    android:textSize="15sp">
+
+                </TextView>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/text_participant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-37dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Nouveau participant"
+            android:textColor="#777778"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/text_input_nom_colocataire1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/classique_input"
+            android:fontFamily="@font/poppins_medium_italic"
+            android:hint="@string/nom_colocataire"
+            android:paddingStart="10sp"
+            android:textColor="#9E9E9E"
+            android:textColorHint="#9E9E9E"
+            android:textSize="15sp" />
+
+
+        <EditText
+            android:id="@+id/text_input_email_colocataire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/classique_input"
+            android:fontFamily="@font/poppins_medium_italic"
+            android:hint="@string/email_colocataire"
+            android:paddingStart="10sp"
+            android:textColor="#9E9E9E"
+            android:textColorHint="#9E9E9E"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/ajouter_un_autre_colocataire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/classique_bouton"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/ajouter_colocataire"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_participants_ajoutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Participants ajoutés"
+            android:textColor="#777778"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_affichage_nom_colocataire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Aucun participant !"
+            android:textColor="#347BFF"
+            android:textSize="15sp" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/suivant_vers_choisir_colocataire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/classique_bouton"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/suivant_vers_choisir_nom_colocataire"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"></Button>
+
+</LinearLayout>

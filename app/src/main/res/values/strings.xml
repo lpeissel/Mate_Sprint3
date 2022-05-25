@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Mate</string>
+    <string name="nom_de_la_coloc">Nom de la coloc</string>
+    <string name="gere_ta_coloc">Gère ta coloc de A à Z</string>
+    <string name="nom_colocataire">Colocataire</string>
+    <string name="email_colocataire">Email coloc ...</string>
+    <string name="ajouter_colocataire">Ajouter autre coloc</string>
+    <string name="suivant_vers_choisir_nom_colocataire">Suivant</string>
+    <string name="envoi_mail">Vous allez recevoir un code de vérification à cette adresse mail:</string>
+    <!--Vous aller recevoir un code de vérification à l’adresse email suivante :-->
+    <string name="ex_email"><u>jeanmich@gmail.com</u></string>
+    <string name="renvoyer">Renvoyer</string>
+    <string name="verifie_tes_spams_avant_de_renvoyer">*vérifie tes spams avant de renvoyer</string>
+    <string name="revenir_sur_appli_apres_verif">Une fois ton adresse validée reviens sur cette page ou quitte et réouvre l’application</string>
+    <string name="rejoindre">Rejoindre</string>
+    <string name="identitfiant_de_la_coloc">Identitfiant de la coloc</string>
+    <string name="slogan">Gère ta coloc de A à Z</string>
+    <string name="ou">ou</string>
+    <string name="creer_colocation">Créer une colocation</string>
+    <string name="title_activity_identification">identificationActivity</string>
+    <string name="qui_es_tu">Qui es-tu ?</string>
+    <string name="nom">nom colocataire</string>
+    <string name="verifier_mon_mail">Vérifier mon mail</string>
+
+    <!-- BOTTOM NAVIGATION VIEW -->
+    <string name="bottom_navigation_menu_rappels">Rappels</string>
+    <string name="bottom_navigation_menu_depenses">Budget</string>
+    <string name="bottom_navigation_menu_liste">Liste</string>
+    <string name="bottom_navigation_menu_reglages">Réglages</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Paramètres -->
+    <string name="parametres">Paramètres</string>
+    <string name="mon_surnom">Mon surnom</string>
+    <string name="mon_surnom_value">Axel</string>
+    <string name="passer_ma_couronne">Passer ma couronne</string>
+    <string name="mail_coloc_value">axelmolines@gmail.com</string>
+    <string name="quitter_la_coloc">Quitter la coloc</string>
+    <string name="valider">Valider</string>
+    <string name="a_qui_souhaites_tu_passer_la_couronne">Avant de quitter, à qui souhaites-tu passer la couronne ?</string>
+    <string name="es_tu_s_r_de_vouloir_quitter_ta_coloc">Es-tu sûr de vouloir quitter ta coloc ?</string>
+    <string name="annuler">Annuler</string>
+    <string name="oui">Oui</string>
+    <string name="surnomcoloc">Axel</string>
+    <string name="textview">textview</string>
+    <string name="colocSupp">Vous avez quitter votre colocation !</string>
+    <string name="budget">Budget</string>
+    <string name="liste">Liste de course</string>
+    <string name="rappels">Rappels</string>
+
+    <!-- ToDoList -->
+    <string name="save">Enregistrer</string>
+    <string name="new_task">Nouvel Item</string>
+    <string name="tasks">Liste de course</string>
+    <string name="title_activity_couronne">CouronneActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="new_date">Date du rappel</string>
+    <string name="new_description">Description du rappel</string>
+    <string name="new_titre">Titre du rappel</string>
+
+
+    <string name="paragrapheRappels">Description du rappel Description du rappelDescription du rappelDescription du rappelDescription du rappel</string>
+</resources>

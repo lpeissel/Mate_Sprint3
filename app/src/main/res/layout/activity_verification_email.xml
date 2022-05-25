@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:weightSum="9"
+    tools:context=".VerificationEmailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="175dp"
+                    android:layout_height="185dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/logo_mate"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom|center">
+
+                <TextView
+                    android:id="@+id/text_gere_ta_colocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/gere_ta_coloc"
+                    android:textColor="#000000"
+                    android:textSize="15sp">
+
+                </TextView>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="center">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/logo2"
+                android:layout_width="286dp"
+                android:layout_height="411dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/rectangle_verification_email"
+                android:fontFamily="@font/poppins_medium"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp">
+
+            </View>
+
+            <RelativeLayout
+                android:id="@+id/envoi_mail"
+                android:layout_width="240dp"
+                android:layout_height="411dp"
+                android:layout_marginLeft="23sp">
+
+                <ImageView
+                    android:id="@+id/lodo_loading"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/loading_icon" />
+
+                <TextView
+                    android:id="@+id/text_email_envoye"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:paddingBottom="120dp"
+                    android:text="@string/envoi_mail"
+                    android:textColor="#3F4148"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/rappel_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:textColor="#9E9E9E"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="245dp"
+                    android:fontFamily="@font/poppins_bold"
+                    android:gravity="center"
+                    android:text="Entrer le code reçu"
+                    android:textColor="#3F4148"
+                    android:textSize="20dp">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/code_verification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="275dp"
+                    android:background="@drawable/code_verif_id_input"
+                    android:fontFamily="@font/poppins_medium_italic"
+                    android:gravity="center"
+                    android:hint="Exemple: 17583546"
+                    android:textColor="#9E9E9E"
+                    android:textSize="15sp">
+
+                </EditText>
+
+                <Button
+                    android:id="@+id/bouton_valider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="330dp"
+                    android:background="@drawable/valider_bouton"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:gravity="center"
+                    android:text="Valider"
+                    android:textAllCaps="false"
+                    android:textSize="20sp">
+
+                </Button>
+
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

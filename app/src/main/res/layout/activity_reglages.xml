@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReglagesActivity">
+
+
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/logo_mate_sans_titre">
+        </ImageView>
+
+    <TextView
+        android:id="@+id/tasksText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/parametres"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/mon_surnom"
+        android:textColor="@color/gris_fonce"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/nom_coloc_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/surnomcoloc"
+        android:textColor="@color/gris_clair"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/passer_ma_couronne_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="106dp"
+        android:src="@drawable/ic_crown" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_line_parametres" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Mon email"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="170dp"
+                android:textColor="@color/gris_fonce"
+                android:textSize="20sp"
+                >
+
+            </TextView>
+
+
+    <TextView
+        android:id="@+id/mail_coloc_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/mail_coloc_value"
+        android:textColor="@color/gris_clair"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="200dp"
+        android:textSize="15sp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_line_parametres" />
+
+
+    <Button
+        android:id="@+id/btn_quitter_coloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/classique_bouton"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/quitter_la_coloc"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp">
+
+    </Button>
+
+
+</RelativeLayout>

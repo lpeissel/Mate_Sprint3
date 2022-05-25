@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:weightSum="9"
+    tools:context=".IdentificationColocataireActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            tools:ignore="NestedWeights">
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="185dp"
+                android:src="@drawable/logo_mate"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="@string/slogan"
+                android:textColor="#000000"
+                android:textSize="15sp">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:layout_weight="4"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/qui_es_tu"
+                android:textColor="#095CF7"
+                android:textSize="20sp"></TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_coloc1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_btn_identification_colocataire"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nom"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+
+        <Button
+            android:id="@+id/btn_coloc2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/ic_btn_identification_colocataire"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nom"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/btn_coloc3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/ic_btn_identification_colocataire"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nom"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_verifier_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/classique_bouton"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/verifier_mon_mail"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="20sp">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
