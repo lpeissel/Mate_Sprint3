@@ -7,19 +7,19 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
 
-class BudgetActivity : AppCompatActivity() {
+class EquilibresActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_budget)
-        val boutonAfficherEquilibre = findViewById<Button>(R.id.btn_equilibre)
+        setContentView(R.layout.activity_equilibres)
+        val boutonAfficherBudget = findViewById<Button>(R.id.btn_depenses)
 
-        boutonAfficherEquilibre.setOnClickListener{
-            val intent = Intent(this,EquilibresActivity::class.java)
+        boutonAfficherBudget.setOnClickListener{
+            val intent = Intent(this,BudgetActivity::class.java)
             startActivity(intent)
-        }
-
+    }
 
     }
+
     //rajouter items d'autres classes
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         //trouver le contenu du menu qui se trouve dans list_clients.xml et on souhaite le mettre dans menu

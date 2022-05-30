@@ -1,0 +1,150 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newDepenseTitre"
+        android:background="@null"
+        android:text="Titre de la dépense"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/newDepenseTitreEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Titre"
+        android:layout_below="@id/newDepenseTitre"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newDepenseMontant"
+        android:background="@null"
+        android:text="Montant"
+        android:layout_below="@id/newDepenseTitreEdit"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/newDepenseMontantEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newDepenseMontant"
+        android:background="@null"
+        android:hint="00,00€"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newDepenseDate"
+        android:background="@null"
+        android:text="Date"
+        android:layout_below="@id/newDepenseMontantEdit"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/newDepenseDateEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="JJ/MM/AAAA"
+        android:layout_below="@id/newDepenseDate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/newPayeParTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newDepenseDateEdit"
+        android:background="@null"
+        android:text="Payé par"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/newPayeParEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newPayeParTitre"
+        android:background="@null"
+        android:text="@string/nom"
+        android:textColor="@color/gris_tres_clair"
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/newPourQuiTitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newPayeParEdit"
+        android:background="@null"
+        android:text="Pour qui"
+        android:textColor="@color/purple_500"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <CheckBox
+        android:id="@+id/coloc0CheckBox"
+        tools:text="@string/nom"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/newPourQuiTitre"
+        android:buttonTint="#347BFF"
+        android:textColor="@color/gris_tres_clair"
+        />
+
+    <CheckBox
+        android:id="@+id/coloc1CheckBox"
+        tools:text="@string/nom"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coloc0CheckBox"
+        android:buttonTint="#347BFF"
+        android:textColor="@color/gris_tres_clair"
+        />
+
+    <CheckBox
+        android:id="@+id/coloc2CheckBox"
+        tools:text="@string/nom"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gris_tres_clair"
+
+        android:layout_below="@id/coloc1CheckBox"
+        android:buttonTint="#347BFF" />
+
+
+    <Button
+        android:id="@+id/newRappelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coloc2CheckBox"
+        android:textSize="16sp"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@android:color/darker_gray" />
+
+</RelativeLayout>

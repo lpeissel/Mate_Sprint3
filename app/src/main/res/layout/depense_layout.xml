@@ -1,0 +1,59 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/DepenseTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:textColor="@color/purple_500"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            tools:text="Titre de la dépense"></TextView>
+
+        <TextView
+            android:id="@+id/PayeParText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingStart="8dp"
+            tools:text="payé par" />
+
+        <TextView
+            android:id="@+id/nomPayeurText"
+            android:layout_width="155dp"
+            android:layout_height="28dp"
+            android:layout_alignRight="@+id/PayeParText"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="-156dp"
+            android:textStyle="bold"
+            tools:text="@string/nom" />
+
+        <TextView
+            android:id="@+id/DepenseMontant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:textColor="@color/purple_500"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            tools:text="00,00€"></TextView>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".BudgetActivity">
+    tools:context=".EquilibresActivity">
 
     <ImageView
         android:layout_width="65dp"
@@ -83,8 +83,42 @@
         android:text="00,00€"
         android:textColor="@color/gris_fonce" />
 
+
+    <TextView
+        android:id="@+id/equilibreColoc0"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="+00,00€"
+        android:textColor="@color/gris_fonce"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/equilibreColoc1"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="+00,00€"
+        android:textColor="@color/gris_fonce"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/equilibreColoc2"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="+00,00€"
+        android:textColor="@color/gris_fonce"
+        android:textSize="20sp" />
+
     <Button
-        android:id="@+id/btn_equilibre"
+        android:id="@+id/btn_depenses"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -92,19 +126,42 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/ic_btn_quitter"
         android:fontFamily="@font/poppins_medium"
-        android:text="Voir les équilibres"
+        android:text="Voir les dépenses"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="18sp" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/depensesRecyclerView"
-        android:layout_width="match_parent"
+
+    <TextView
+        android:id="@+id/nomColoc1"
+        android:layout_width="189dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="312dp"
-        android:nestedScrollingEnabled="true"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/nom"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/nomColoc0"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="290dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/nom"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp" />
 
+    <TextView
+        android:id="@+id/nomColoc2"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/nom"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp" />
 </RelativeLayout>

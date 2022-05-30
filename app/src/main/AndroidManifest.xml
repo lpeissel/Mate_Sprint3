@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Application">
         <activity
+            android:name=".EquilibresActivity"
+            android:exported="false" />
+        <activity
             android:name=".PasserCouronneActivity"
             android:exported="false" />
         <activity
@@ -25,7 +28,7 @@
             android:exported="false" />
         <activity
             android:name=".RappelsActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".NommerColocationActivity"
             android:exported="false" />
@@ -43,7 +46,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".ListeActivity"
             android:exported="true">

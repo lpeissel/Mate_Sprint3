@@ -17,12 +17,11 @@
             android:id="@+id/RappelTitre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="Titre du rappel"
-            android:textColor="@android:color/black"
             android:paddingStart="8dp"
+            android:textColor="@android:color/black"
             android:textSize="22sp"
-            android:textStyle="bold">
-        </TextView>
+            android:textStyle="bold"
+            tools:text="Titre du rappel"></TextView>
         <!--
                 <TextView
                     android:id="@+id/RappelText"

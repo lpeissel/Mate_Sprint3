@@ -4,10 +4,13 @@
       <root url="jar://$USER_HOME$/Dark_Login_UI/caches/transforms-3/da416c43a7553a73b3edefa48c17ddb5/transformed/jetified-activity-ktx-1.2.3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/Dark_Login_UI/caches/transforms-3/da416c43a7553a73b3edefa48c17ddb5/transformed/jetified-activity-ktx-1.2.3/res" />
       <root url="file://$USER_HOME$/Dark_Login_UI/caches/transforms-3/da416c43a7553a73b3edefa48c17ddb5/transformed/jetified-activity-ktx-1.2.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1d171672918939d5e062fdc8f1376ea0/transformed/activity-ktx-1.2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d171672918939d5e062fdc8f1376ea0/transformed/activity-ktx-1.2.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d171672918939d5e062fdc8f1376ea0/transformed/activity-ktx-1.2.3/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/Dark_Login_UI/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.2.3/8de8463662d207920c11530ec0e76af3005f0061/activity-ktx-1.2.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.2.3/8de8463662d207920c11530ec0e76af3005f0061/activity-ktx-1.2.3-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
